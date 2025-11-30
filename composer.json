@@ -1,0 +1,41 @@
+{
+  "name": "rustamaji/shadcn-blade",
+  "description": "Shadcn Blade UI Component Generator",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "type": "library",
+  "keywords": ["laravel", "blade", "shadcn", "ui", "component-generator"],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "ShadcnBlade\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ShadcnBlade\\Providers\\ShadcnBladeServiceProvider"
+      ]
+    }
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "@php bin/inject-css.php"
+    ]
+  },
+  "require": {
+    "php": ">=8.1",
+    "illuminate/support": "^10.0 || ^11.0 || ^12.0",
+    "illuminate/view": "^10.0 || ^11.0 || ^12.0",
+    "illuminate/filesystem": "^10.0 || ^11.0 || ^12.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^10.8",
+    "phpunit/phpunit": "^12.4"
+  }
+}
