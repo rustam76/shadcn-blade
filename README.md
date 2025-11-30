@@ -37,6 +37,10 @@ This will copy the component's Blade view to `resources/views/components/ui`. Yo
 <x-ui:::button>Click me</x-ui:::button>
 ```
 
+## Contributing
+
+Please see [docs/contribution.md](docs/contribution.md) for details on how to contribute to this project.
+
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
