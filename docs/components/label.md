@@ -11,7 +11,7 @@ php artisan shadcn:add label
 ## Usage
 
 ```html
-<x-ui:::label for="email">Your email address</x-ui:::label>
+<x-ui::label for="email">Your email address</x-ui::label>
 ```
 
 ## Props

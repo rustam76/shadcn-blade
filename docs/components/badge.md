@@ -13,25 +13,25 @@ php artisan shadcn:add badge
 ### Default
 
 ```html
-<x-ui:::badge>Badge</x-ui:::badge>
+<x-ui::badge>Badge</x-ui::badge>
 ```
 
 ### Secondary
 
 ```html
-<x-ui:::badge variant="secondary">Secondary</x-ui:::badge>
+<x-ui::badge variant="secondary">Secondary</x-ui::badge>
 ```
 
 ### Outline
 
 ```html
-<x-ui:::badge variant="outline">Outline</x-ui:::badge>
+<x-ui::badge variant="outline">Outline</x-ui::badge>
 ```
 
 ### Destructive
 
 ```html
-<x-ui:::badge variant="destructive">Destructive</x-ui:::badge>
+<x-ui::badge variant="destructive">Destructive</x-ui::badge>
 ```
 
 ## Props

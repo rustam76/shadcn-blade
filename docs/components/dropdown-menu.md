@@ -11,17 +11,17 @@ php artisan shadcn:add dropdown
 ## Usage
 
 ```html
-<x-ui:::dropdown>
+<x-ui::dropdown>
   <x-slot:trigger>
-    <x-ui:::button variant="outline">Open</x-ui:::button>
+    <x-ui::button variant="outline">Open</x-ui::button>
   </x-slot:trigger>
-  <x-ui:::dropdown.label>My Account</x-ui:::dropdown.label>
-  <x-ui:::dropdown.separator />
-  <x-ui:::dropdown.item>Profile</x-ui:::dropdown.item>
-  <x-ui:::dropdown.item>Billing</x-ui:::dropdown.item>
-  <x-ui:::dropdown.item>Team</x-ui:::dropdown.item>
-  <x-ui:::dropdown.item>Subscription</x-ui:::dropdown.item>
-</x-ui:::dropdown>
+  <x-ui::dropdown.label>My Account</x-ui::dropdown.label>
+  <x-ui::dropdown.separator />
+  <x-ui::dropdown.item>Profile</x-ui::dropdown.item>
+  <x-ui::dropdown.item>Billing</x-ui::dropdown.item>
+  <x-ui::dropdown.item>Team</x-ui::dropdown.item>
+  <x-ui::dropdown.item>Subscription</x-ui::dropdown.item>
+</x-ui::dropdown>
 ```
 
 ## Props

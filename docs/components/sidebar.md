@@ -11,24 +11,24 @@ php artisan shadcn:add sidebar
 ## Usage
 
 ```html
-<x-ui:::sidebar>
-  <x-ui:::sidebar.content>
-    <x-ui:::sidebar.group>
-      <x-ui:::sidebar.group-label>Application</x-ui:::sidebar.group-label>
-      <x-ui:::sidebar.group-content>
-        <x-ui:::sidebar.menu>
-          <x-ui:::sidebar.menu-item>
-            <x-ui:::sidebar.menu-button>
+<x-ui::sidebar>
+  <x-ui::sidebar.content>
+    <x-ui::sidebar.group>
+      <x-ui::sidebar.group-label>Application</x-ui::sidebar.group-label>
+      <x-ui::sidebar.group-content>
+        <x-ui::sidebar.menu>
+          <x-ui::sidebar.menu-item>
+            <x-ui::sidebar.menu-button>
               <a href="#">
                 <span>Home</span>
               </a>
-            </x-ui:::sidebar.menu-button>
-          </x-ui:::sidebar.menu-item>
-        </x-ui:::sidebar.menu>
-      </x-ui:::sidebar.group-content>
-    </x-ui:::sidebar.group>
-  </x-ui:::sidebar.content>
-</x-ui:::sidebar>
+            </x-ui::sidebar.menu-button>
+          </x-ui::sidebar.menu-item>
+        </x-ui::sidebar.menu>
+      </x-ui::sidebar.group-content>
+    </x-ui::sidebar.group>
+  </x-ui::sidebar.content>
+</x-ui::sidebar>
 ```
 
 ## Props

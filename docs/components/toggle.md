@@ -13,7 +13,7 @@ php artisan shadcn:add toogle
 ## Usage
 
 ```html
-<x-ui:::toggle aria-label="Toggle italic">
+<x-ui::toggle aria-label="Toggle italic">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -30,7 +30,7 @@ php artisan shadcn:add toogle
     <line x1="14" x2="5" y1="20" y2="20" />
     <line x1="15" x2="9" y1="4" y2="20" />
   </svg>
-</x-ui:::toggle>
+</x-ui::toggle>
 ```
 
 ## Props

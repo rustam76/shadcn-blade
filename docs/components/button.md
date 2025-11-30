@@ -13,43 +13,43 @@ php artisan shadcn:add button
 ### Default
 
 ```html
-<x-ui:::button>Button</x-ui:::button>
+<x-ui::button>Button</x-ui::button>
 ```
 
 ### Secondary
 
 ```html
-<x-ui:::button variant="secondary">Secondary</x-ui:::button>
+<x-ui::button variant="secondary">Secondary</x-ui::button>
 ```
 
 ### Destructive
 
 ```html
-<x-ui:::button variant="destructive">Destructive</x-ui:::button>
+<x-ui::button variant="destructive">Destructive</x-ui::button>
 ```
 
 ### Outline
 
 ```html
-<x-ui:::button variant="outline">Outline</x-ui:::button>
+<x-ui::button variant="outline">Outline</x-ui::button>
 ```
 
 ### Ghost
 
 ```html
-<x-ui:::button variant="ghost">Ghost</x-ui:::button>
+<x-ui::button variant="ghost">Ghost</x-ui::button>
 ```
 
 ### Link
 
 ```html
-<x-ui:::button variant="link">Link</x-ui:::button>
+<x-ui::button variant="link">Link</x-ui::button>
 ```
 
 ### Icon
 
 ```html
-<x-ui:::button size="icon">
+<x-ui::button size="icon">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -64,7 +64,7 @@ php artisan shadcn:add button
   >
     <path d="m9 18 6-6-6-6" />
   </svg>
-</x-ui:::button>
+</x-ui::button>
 ```
 
 ## Props

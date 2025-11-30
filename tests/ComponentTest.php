@@ -12,7 +12,7 @@ class ComponentTest extends TestCase
         $this->artisan('shadcn:add', ['name' => 'button']);
 
         // Then try to render it
-        $view = Blade::render('<x-ui:::button>Click me</x-ui:::button>');
+        $view = Blade::render('<x-ui::button>Click me</x-ui::button>');
 
         $this->assertStringContainsString('Click me', $view);
         $this->assertStringContainsString('inline-flex items-center justify-center', $view);

@@ -15,7 +15,7 @@ This command will copy the component's Blade view to your `resources/views/compo
 Once added, you can use the components in your Blade views like any other Blade component. The components are placed under the `ui` namespace.
 
 ```blade
-<x-ui:::button>Click me</x-ui:::button>
+<x-ui::button>Click me</x-ui::button>
 ```
 
 ### Example
@@ -23,7 +23,7 @@ Once added, you can use the components in your Blade views like any other Blade 
 Here is an example of using a button component with a variant:
 
 ```blade
-<x-ui:::button variant="destructive">
+<x-ui::button variant="destructive">
     Delete Account
-</x-ui:::button>
+</x-ui::button>
 ```

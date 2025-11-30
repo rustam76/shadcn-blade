@@ -11,20 +11,20 @@ php artisan shadcn:add radio
 ## Usage
 
 ```html
-<x-ui:::radio.group name="type" value="card">
+<x-ui::radio.group name="type" value="card">
   <div class="flex items-center space-x-2">
-    <x-ui:::radio.item value="default" id="r1" />
-    <x-ui:::label for="r1">Default</x-ui:::label>
+    <x-ui::radio.item value="default" id="r1" />
+    <x-ui::label for="r1">Default</x-ui::label>
   </div>
   <div class="flex items-center space-x-2">
-    <x-ui:::radio.item value="comfortable" id="r2" />
-    <x-ui:::label for="r2">Comfortable</x-ui:::label>
+    <x-ui::radio.item value="comfortable" id="r2" />
+    <x-ui::label for="r2">Comfortable</x-ui::label>
   </div>
   <div class="flex items-center space-x-2">
-    <x-ui:::radio.item value="compact" id="r3" />
-    <x-ui:::label for="r3">Compact</x-ui:::label>
+    <x-ui::radio.item value="compact" id="r3" />
+    <x-ui::label for="r3">Compact</x-ui::label>
   </div>
-</x-ui:::radio.group>
+</x-ui::radio.group>
 ```
 
 ## Props

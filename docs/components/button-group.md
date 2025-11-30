@@ -11,21 +11,21 @@ php artisan shadcn:add button-group
 ## Usage
 
 ```html
-<x-ui:::button-group>
-  <x-ui:::button variant="outline">Year</x-ui:::button>
-  <x-ui:::button variant="outline">Month</x-ui:::button>
-  <x-ui:::button variant="outline">Day</x-ui:::button>
-</x-ui:::button-group>
+<x-ui::button-group>
+  <x-ui::button variant="outline">Year</x-ui::button>
+  <x-ui::button variant="outline">Month</x-ui::button>
+  <x-ui::button variant="outline">Day</x-ui::button>
+</x-ui::button-group>
 ```
 
 ### Vertical
 
 ```html
-<x-ui:::button-group orientation="vertical">
-  <x-ui:::button variant="outline">Year</x-ui:::button>
-  <x-ui:::button variant="outline">Month</x-ui:::button>
-  <x-ui:::button variant="outline">Day</x-ui:::button>
-</x-ui:::button-group>
+<x-ui::button-group orientation="vertical">
+  <x-ui::button variant="outline">Year</x-ui::button>
+  <x-ui::button variant="outline">Month</x-ui::button>
+  <x-ui::button variant="outline">Day</x-ui::button>
+</x-ui::button-group>
 ```
 
 ## Props

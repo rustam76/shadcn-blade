@@ -13,7 +13,7 @@ php artisan shadcn:add alert
 ### Default
 
 ```html
-<x-ui:::alert>
+<x-ui::alert>
   <x-slot:icon>
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -35,13 +35,13 @@ php artisan shadcn:add alert
   <x-slot:description>
     You can add components to your app using the cli.
   </x-slot:description>
-</x-ui:::alert>
+</x-ui::alert>
 ```
 
 ### Destructive
 
 ```html
-<x-ui:::alert variant="destructive">
+<x-ui::alert variant="destructive">
   <x-slot:icon>
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +64,7 @@ php artisan shadcn:add alert
   <x-slot:description>
     Your session has expired. Please log in again.
   </x-slot:description>
-</x-ui:::alert>
+</x-ui::alert>
 ```
 
 ## Props

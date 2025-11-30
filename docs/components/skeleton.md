@@ -12,10 +12,10 @@ php artisan shadcn:add skeleton
 
 ```html
 <div class="flex items-center space-x-4">
-  <x-ui:::skeleton class="h-12 w-12 rounded-full" />
+  <x-ui::skeleton class="h-12 w-12 rounded-full" />
   <div class="space-y-2">
-    <x-ui:::skeleton class="h-4 w-[250px]" />
-    <x-ui:::skeleton class="h-4 w-[200px]" />
+    <x-ui::skeleton class="h-4 w-[250px]" />
+    <x-ui::skeleton class="h-4 w-[200px]" />
   </div>
 </div>
 ```

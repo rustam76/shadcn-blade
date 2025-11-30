@@ -11,12 +11,12 @@ php artisan shadcn:add tooltip
 ## Usage
 
 ```html
-<x-ui:::tooltip>
+<x-ui::tooltip>
   <x-slot:trigger>
-    <x-ui:::button variant="outline">Hover</x-ui:::button>
+    <x-ui::button variant="outline">Hover</x-ui::button>
   </x-slot:trigger>
   <p>Add to library</p>
-</x-ui:::tooltip>
+</x-ui::tooltip>
 ```
 
 ## Props

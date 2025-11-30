@@ -34,7 +34,7 @@ php artisan shadcn:add button
 This will copy the component's Blade view to `resources/views/components/ui`. You can then use it in your Blade files:
 
 ```blade
-<x-ui:::button>Click me</x-ui:::button>
+<x-ui::button>Click me</x-ui::button>
 ```
 
 ## Contributing

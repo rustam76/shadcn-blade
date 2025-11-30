@@ -11,14 +11,14 @@ php artisan shadcn:add scroll-area
 ## Usage
 
 ```html
-<x-ui:::scroll-area class="h-[200px] w-[350px] rounded-md border p-4">
+<x-ui::scroll-area class="h-[200px] w-[350px] rounded-md border p-4">
   Jokester began sneaking into the castle in the middle of the night and leaving
   jokes all over the place: under the king's pillow, in his soup, even in the
   royal toilet. The king was furious, but he couldn't seem to stop Jokester. And
   then, one day, the people of the kingdom discovered that the jokes were
   actually funny, and they started laughing. And then they started dancing. And
   then they started singing. And then they started having fun.
-</x-ui:::scroll-area>
+</x-ui::scroll-area>
 ```
 
 ## Props

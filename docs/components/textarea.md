@@ -11,7 +11,7 @@ php artisan shadcn:add textarea
 ## Usage
 
 ```html
-<x-ui:::textarea placeholder="Type your message here." />
+<x-ui::textarea placeholder="Type your message here." />
 ```
 
 ## Props

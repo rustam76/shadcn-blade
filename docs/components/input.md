@@ -13,15 +13,15 @@ php artisan shadcn:add input
 ### Default
 
 ```html
-<x-ui:::input type="email" placeholder="Email" />
+<x-ui::input type="email" placeholder="Email" />
 ```
 
 ### File
 
 ```html
 <div class="grid w-full max-w-sm items-center gap-1.5">
-  <x-ui:::label for="picture">Picture</x-ui:::label>
-  <x-ui:::input id="picture" type="file" />
+  <x-ui::label for="picture">Picture</x-ui::label>
+  <x-ui::input id="picture" type="file" />
 </div>
 ```
 
@@ -30,15 +30,15 @@ php artisan shadcn:add input
 ### Disabled
 
 ```html
-<x-ui:::input type="email" placeholder="Email" disabled />
+<x-ui::input type="email" placeholder="Email" disabled />
 ```
 
 ### With Button
 
 ```html
 <div class="flex w-full max-w-sm items-center space-x-2">
-  <x-ui:::input type="email" placeholder="Email" />
-  <x-ui:::button type="submit">Subscribe</x-ui:::button>
+  <x-ui::input type="email" placeholder="Email" />
+  <x-ui::button type="submit">Subscribe</x-ui::button>
 </div>
 ```
 
