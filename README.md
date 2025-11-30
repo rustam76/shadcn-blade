@@ -16,7 +16,7 @@ For full documentation, please visit [docs/index.md](docs/index.md).
 You can install the package via composer:
 
 ```bash
-composer require rustamaji/shadcn-blade
+composer require rustam76/shadcn-blade
 ```
 
 ### CSS Injection

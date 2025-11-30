@@ -17,7 +17,7 @@ This package allows you to easily integrate Shadcn UI components into your Larav
 You can install the package via composer:
 
 ```bash
-composer require rustamaji/shadcn-blade
+composer require rustam76/shadcn-blade
 ```
 
 ## Requirements
